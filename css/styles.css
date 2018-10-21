@@ -270,7 +270,15 @@ footer img {
     text-align:justify;
 }
 .contact-title {
-    color: #cc0000
+    font-size: 30px;
+    color: #000000;
+}
+.glyphicon {
+    color: #cc0000;
+    font-size: 22px;
+}
+.address-icons {
+    padding: 15px;
 }
 footer a,  footer a:hover,  footer a:active,  footer a:focus,  footer a:visited {
     text-decoration: none;
