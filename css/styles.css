@@ -370,6 +370,12 @@ footer a,  footer a:hover,  footer a:active,  footer a:focus,  footer a:visited 
         -webkit-transform: translateY(0%);
     }
 }
+@media screen and (max-width: 1000px) and (min-width: 768px) {
+    .logo {
+        width: 220px;
+        height: 300px;
+    }
+}
 @media screen and (max-width: 768px) {
     .col-sm-4 {
         text-align: center;
