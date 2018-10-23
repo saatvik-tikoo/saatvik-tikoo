@@ -8,10 +8,9 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" type="text/css">
-	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Raleway:regular,bold&subset=Latin">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Montserrat">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:400,800" rel="stylesheet">
 	<title>Saatvik Tikoo</title>
-	<script src="js/modernizr.js"></script>
-	<script src="js/pace.min.js"></script>
 
 	<link href="css/styles.css" rel="stylesheet" type="text/css">
 	<link rel="icon" type="image/png" href="images/favicon.png">
@@ -21,7 +20,7 @@
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
 	<!-- Navigation bar -->
-	<nav class="navbar navbar-default navbar-fixed-top">
+	<nav class="navbar navbar-default navbar-fixed-top" style="display:none">
 		<div class="container">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -34,9 +33,9 @@
 				<ul class="nav navbar-nav navbar-right">
 					<li class="active"><a href="#home">Home</a></li>
 					<li><a href="#about">About</a></li>
-					<li><a href="#timeline">TimeLine</a></li>
+					<li><a href="#timeline">Resume</a></li>
 					<li><a href="#projects">Projects</a></li>
-					<li><a href="#extra">Extra Curricular</a></li>
+					<li><a href="#extra">Extra-Curricular</a></li>
 					<li><a href="#contact">Contact Me</a></li>
 				</ul>
 			</div>
@@ -46,6 +45,7 @@
 	<!-- Home -->
 	<div id="home">
 		<div class="jumbotron text-center">
+			<h3>Hello World! I'm</h3>
 			<h1>Saatvik Tikoo</h1>
 			<p>Applications Engineer | Research Enthusiast</p>
 			<div class="row ">
@@ -54,6 +54,7 @@
 				</div>
 			</div>
 			<ul class="intro-social">
+				<li><a href="https://www.facebook.com/saatviktikoo07/" target="_blank"><i class="fa fa-facebook"></i></a></li>
 				<li><a href="https://www.github.com/saatvik-tikoo" target="_blank"><i class="fa fa-github"></i></a></li>
 				<li><a href="https://www.linkedin.com/in/saatviktikoo/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
 			</ul>
@@ -62,18 +63,32 @@
 
 	<!-- About -->
 	<div id="about" class="container-fluid">
-		<div class="row">
-			<div class="col-sm-8">
-				<h2>About Me</h2>
-				<h4>I am currently working as an Applications Developer at Oracle India Pvt. Ltd.
-					My work here is related to Web Application Development. I have completed my
-					Bachelors in Computer Science From <span><a href="http://www.jntuhceh.ac.in/" target="_blank">JHTUH-CEH</a></span>.
-					I have always been among the best students of my class and department.</h4><br>
-				<br><a class="btn btn-default btn-lg" href="#contact">Get in Touch</a>
+		<div class="about-title">
+			<div class="row">
+				<div class="col-sm-12 text-center">
+					<h3>ABOUT</h3>
+				</div>
 			</div>
-			<div class="col-sm-4">
-				<img src="images/me.jpg" class="img-circle logo" alt="Saatvik Tikoo">
+			<div class="row">
+				<div class="col-sm-12 text-center">
+					<h1>Let me Introduce Myself</h1>
+				</div>
 			</div>
+			<div class="row">
+				<div class="col-sm-1"></div>
+				<div class="col-sm-2">
+					<img src="images/me.png" class="logo" alt="Saatvik Tikoo">
+				</div>
+				<div class="col-sm-6">
+					<h4>I am currently working as an Applications Developer at Oracle India Pvt. Ltd.
+						My work here is related to Web Application Development. I have completed my
+						Bachelors in Computer Science From <span><a href="http://www.jntuhceh.ac.in/" target="_blank">JHTUH-CEH</a></span>.
+						I like to build thinks wthat will make life easier and better for people</h4>
+					<a class="btn btn-default btn-lg" href="#contact">Get in Touch</a>
+				</div>
+			</div>
+
+
 		</div>
 		<div class="row profile-info">
 			<div class="col-md-1"></div>
@@ -98,7 +113,7 @@
 					</li>
 					<li>
 						<strong>Website:</strong>
-						<div><a href= "https://saatvik-tikoo.github.io/" target="_blank">https://saatvik-tikoo.github.io/</a></div>
+						<div><a href="https://saatvik-tikoo.github.io/" target="_blank">https://saatvik-tikoo.github.io/</a></div>
 					</li>
 					<li>
 						<strong>LinkedIn Profile:</strong>
@@ -175,16 +190,153 @@
 	</div>
 
 	<!-- Timeline -->
-	<div id="timeline" class="container-fluid bg-grey text-center">
-		<h2>TimeLine</h2><br>
+	<div id="timeline" class="container-fluid bg-grey text-justify">
+		<section class="bio_section" id="bio-section">
+			<!--Section Banner Box-->
+			<div class="section-banner-box">
+				<div class="auto-container">
+					<div class="timeline-title-box text-center">
+						<h3><span class="bg-text">Resume</span></h3>
+					</div>
+				</div>
+			</div>
+			<div class="content-container">
+				<div class="auto-container">
+					<!--Title Style One-->
+					<div class="title-style-one text-center">
+						<h1>Work History</h1>
+					</div>
+
+					<div class="row clearfix">
+						<!--Column-->
+						<div class="timeline-column col-lg-6 col-md-12 col-sm-12 col-xs-12">
+							<div class="inner">
+								<div class="col-header">
+									<div class="icon-box">
+										<div class="icon-inner">
+											<div class="icon"><i class="fa fa-briefcase"></i></div>
+										</div>
+									</div>
+									<h2>Employment</h2>
+								</div>
+
+								<!--Timeline Block-->
+								<div class="timeline-block">
+									<div class="inner-box">
+										<div class="date">
+											Applications Engineer
+											<h6>July 2014 - Present</h6>
+										</div>
+										<h4>Oracle, Hyderabad</h4>
+										<div class="text">Developed web applications using Oracle’s JavaScript Extension Tool (OJet).
+											Worked on multiple projects dealing with the front-end development.
+											Worked on end-to-end handling of a project that included security setup, build-setup
+											and automation tasks (Gulp). JavaScript was the main language.
+											Developed REST based services to allow interaction between client and server
+											in an application. Worked on exposing only some parts of a View Object to ensure
+											security.Developed applications on J2EE environment using the Oracle Applications Development
+											Framework (ADF).</div>
+									</div>
+								</div>
+
+								<!--Timeline Block-->
+								<div class="timeline-block">
+									<div class="inner-box">
+										<div class="date">
+											Software Developer
+											<h6>January 2017 - April 2017</h6>
+										</div>
+										<h4>Pervacio Inc, Hyderabad</h4>
+										<div class="text">Worked in a team of three, to develop a system that can automatically detect the physical
+											damages to a mobile device without any human interaction. It included developing the software
+											and designing the hardware. OpenCV libraries were used on the software end and Pylon suite was
+											used to control the cameras on the hardware end. Python was the main language used.</div>
+									</div>
+								</div>
+
+								<!--Timeline Block-->
+								<div class="timeline-block">
+									<div class="inner-box">
+										<div class="date">
+											UX/ UI Developer
+											<h6>May 2016 - June 2016</h6>
+										</div>
+										<h4>Being Zero Pvt. Ltd., Hyderabad</h4>
+										<div class="text">Worked as an Intern to develop the front-end of a Website using AngularJS.</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+
+						<!--Column-->
+						<div class="timeline-column col-lg-6 col-md-12 col-sm-12 col-xs-12">
+							<div class="inner">
+								<div class="col-header">
+									<div class="icon-box">
+										<div class="icon-inner">
+											<div class="icon"><span class="fa fa-graduation-cap"></span></div>
+										</div>
+									</div>
+									<h2>Education</h2>
+								</div>
+
+								<!--Timeline Block-->
+								<div class="timeline-block">
+									<div class="inner-box">
+										<div class="date">
+											Bachelors of Technology, Computer Science and Engineering
+											<h6>September 2013 - June 2017</h6>
+										</div>
+										<h4>Jawaharlal Nehru Technological University, College of Engineering, Hyderabad</h4>
+										<div class="text">Percentage: 82.87%</div>
+									</div>
+								</div>
+
+								<!--Timeline Block-->
+								<div class="timeline-block">
+									<div class="inner-box">
+										<div class="date">
+											Higher Secondary School (Grade XII)
+											<h6>April 2012 - March 2013</h6>
+										</div>
+										<h4>B.S.F. Senior Secondary School, Jammu</h4>
+										<div class="text">Percentage: 87.4%</div>
+									</div>
+								</div>
+
+								<!--Timeline Block-->
+								<div class="timeline-block">
+									<div class="inner-box">
+										<div class="date">
+											Senior Secondary School (Grade X)
+											<h6>April 2010 - March 2011</h6>
+										</div>
+										<h4>B.S.F. Senior Secondary School, Jammu</h4>
+										<div class="text">CGPA: 9.8</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<!-- Projects -->
+	<div id="projects" class="container-fluid text-center">
+		<h3 class="project-section-title">Project</h3>
+		<h1>Check out my work</h1></br>
 		<div class="timeline">
 			<div class="entry">
 				<div class="title">
-					<h3>July 2014 - Present</h3>
-					<p>Applications Engineer</p>
+					<h3>Sentiment Analysis</h3>
+					<p>Machine Learning</p>
 				</div>
 				<div class="body">
-					<p>Oracle - Hyderabad, India</p>
 					<ul>
 						<li>Developed web applications using Oracle’s JavaScript Extension Tool (OJet).
 							Worked on multiple projects dealing with the front-end development.
@@ -200,11 +352,10 @@
 			</div>
 			<div class="entry">
 				<div class="title">
-					<h3>January 2017 - March 2017</h3>
-					<p>Software Developer</p>
+					<h3>ChatBot</h3>
+					<p>Machine Learning</p>
 				</div>
 				<div class="body">
-					<p>Pervacio Inc. - Hyderabad, India</p>
 					<ul>
 						<li>Worked in a team of three, to develop a system that can automatically detect the physical
 							damages to a mobile device without any human interaction. It included developing the software
@@ -215,11 +366,10 @@
 			</div>
 			<div class="entry">
 				<div class="title">
-					<h3>May 2016 - June 2016</h3>
-					<p>UX/ UI Developer</p>
+					<h3>Stock Market Prediction</h3>
+					<p>Machine Learning</p>
 				</div>
 				<div class="body">
-					<p>Being Zero Pvt. Ltd. - Hyderabad, India</p>
 					<ul>
 						<li>Worked as an Intern to develop the front-end of a Website using AngularJS.</li>
 					</ul>
@@ -227,11 +377,10 @@
 			</div>
 			<div class="entry">
 				<div class="title">
-					<h3>September 2013 - June 2017</h3>
-					<p>Bachelors of Technology, Computer Science and Engineering</p>
+					<h3>Fun Quiz</h3>
+					<p>Bootstrap</p>
 				</div>
 				<div class="body">
-					<p>Jawaharlal Nehru Technological University, College of Engineering, Hyderabad</p>
 					<ul>
 						<li>Percentage: 82.87%</li>
 					</ul>
@@ -239,11 +388,10 @@
 			</div>
 			<div class="entry">
 				<div class="title">
-					<h3>April 2012 - March 2013</h3>
-					<p>Higher Secondary School (Grade XII)</p>
+					<h3>College Fest Website</h3>
+					<p>Polymer Project</p>
 				</div>
 				<div class="body">
-					<p>B.S.F. Senior Secondary School, Jammu</p>
 					<ul>
 						<li>Percentage: 87.4%</li>
 					</ul>
@@ -251,11 +399,32 @@
 			</div>
 			<div class="entry">
 				<div class="title">
-					<h3>April 2010 - March 2011</h3>
-					<p>Senior Secondary School (Grade X)</p>
+					<h3>Automatic Cosmetic Defect Check</h3>
+					<p>Computer Vision</p>
 				</div>
 				<div class="body">
-					<p>B.S.F. Senior Secondary School, Jammu</p>
+					<ul>
+						<li>CGPA: 9.8</li>
+					</ul>
+				</div>
+			</div>
+			<div class="entry">
+				<div class="title">
+					<h3>Mentor pick</h3>
+					<p>HTML</p>
+				</div>
+				<div class="body">
+					<ul>
+						<li>CGPA: 9.8</li>
+					</ul>
+				</div>
+			</div>
+			<div class="entry">
+				<div class="title">
+					<h3>Miscellaneous</h3>
+					<p>C, C++, Java</p>
+				</div>
+				<div class="body">
 					<ul>
 						<li>CGPA: 9.8</li>
 					</ul>
@@ -264,52 +433,85 @@
 		</div>
 	</div>
 
-	<!-- Projects -->
-	<div id="projects">
-
-	</div>
-
 	<!-- Extra Curricular -->
-	<div id="extra" class="container-fluid text-center">
-		<h2>Extra Curricular</h2>
-		<br><br>
-		<div class="row slideanim">
-			<div class="col-sm-1"></div>
-			<div class="col-sm-2">
-				<img src="images/psd.png">
-				<h4>Designer</h4>
+	<div id="extra" class="container-fluid services_section">
+		<h3 class="text-center">Extra-Curricular</h3>
+		<h1 class="text-center" style="color:white">Take a Look at what I do in addition to academics</h1>
+		<br>
+		<div class="container">
+			<div class="services">
+				<div class="row clearfix">
+					<!--Service Column-->
+					<div class="service-column col-lg-4 col-md-6 col-sm-6 col-xs-12">
+						<div class="inner">
+							<div class="icon"><span class="fa fa-lightbulb-o"></span></div>
+							<h3>CODING</h3>
+							<div class="text">Bring to the table win-win survstrategies to ensure proactive domination. At the end of the
+								day, going forward, a new normal that has evolved.</div>
+						</div>
+					</div>
+					<!--Service Column-->
+					<div class="service-column col-lg-4 col-md-6 col-sm-6 col-xs-12">
+						<div class="inner">
+							<div class="icon"><span class="fa fa-anchor"></span></div>
+							<h3>DESIGN</h3>
+							<div class="text">Bring to the table win-win survstrategies to ensure proactive domination. At the end of the
+								day, going forward, a new normal that has evolved.</div>
+						</div>
+					</div>
+					<!--Service Column-->
+					<div class="service-column col-lg-4 col-md-6 col-sm-6 col-xs-12">
+						<div class="inner">
+							<div class="icon"><span class="fa fa-flask"></span></div>
+							<h3>SUPPORT</h3>
+							<div class="text">Bring to the table win-win survstrategies to ensure proactive domination. At the end of the
+								day, going forward, a new normal that has evolved.</div>
+						</div>
+					</div>
+					<!--Service Column-->
+					<div class="service-column col-lg-4 col-md-6 col-sm-6 col-xs-12">
+						<div class="inner">
+							<div class="icon"><span class="fa fa-lightbulb-o"></span></div>
+							<h3>CODING</h3>
+							<div class="text">Bring to the table win-win survstrategies to ensure proactive domination. At the end of the
+								day, going forward, a new normal that has evolved.</div>
+						</div>
+					</div>
+					<!--Service Column-->
+					<div class="service-column col-lg-4 col-md-6 col-sm-6 col-xs-12">
+						<div class="inner">
+							<div class="icon"><span class="fa fa-anchor"></span></div>
+							<h3>DESIGN</h3>
+							<div class="text">Bring to the table win-win survstrategies to ensure proactive domination. At the end of the
+								day, going forward, a new normal that has evolved.</div>
+						</div>
+					</div>
+					<!--Service Column-->
+					<div class="service-column col-lg-4 col-md-6 col-sm-6 col-xs-12">
+						<div class="inner">
+							<div class="icon"><span class="fa fa-flask"></span></div>
+							<h3>SUPPORT</h3>
+							<div class="text">Bring to the table win-win survstrategies to ensure proactive domination. At the end of the
+								day, going forward, a new normal that has evolved.</div>
+						</div>
+					</div>
+				</div>
 			</div>
-			<div class="col-sm-2">
-				<img src="images/hackerearth.png">
-				<h4>Coding Platforms</h4>
-			</div>
-			<div class="col-sm-2">
-				<img src="images/communityServices.png">
-				<h4>Comunity Service</h4>
-			</div>
-			<div class="col-sm-2">
-				<img src="images/badminton.png">
-				<h4>Play Badminton</h4>
-			</div>
-			<div class="col-sm-2">
-				<img src="images/cook.png">
-				<h4>Cook</h4>
-			</div>
-			<div class="col-sm-1"></div>
 		</div>
 	</div>
 
 	<!-- Contact -->
-	<div id="contact" class="container-fluid bg-grey">
+	<div id="contact" class="container-fluid bg-black">
 		<div class="row">
 			<p class="col-sm-7 contact-title">I would love to hear from you. Fell free to reach out.</p>
 		</div>
 		<div class="row">
-			<div class="col-sm-5 address-icons">
+			<div class="col-sm-4 address-icons">
 				<p><span class="glyphicon glyphicon-map-marker"></span> Hyderabad, India</p>
 				<p><span class="glyphicon glyphicon-phone"></span> +91 (950)298-0791</p>
 				<p><span class="glyphicon glyphicon-envelope"></span> tikoosaatvik@gmail.com</p>
 			</div>
+			<div class="col-sm-1"></div>
 			<div class="col-sm-7 slideanim">
 				<form action="contact-form.php" method="post">
 					<div class="row">
@@ -323,7 +525,7 @@
 					<textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5" required></textarea><br>
 					<div class="row">
 						<div class="col-sm-12 form-group">
-							<button class="btn btn-default pull-right" type="submit">Send</button>
+							<button class="btn btn-lg btn-default pull-right send-btn" type="submit">Send</button>
 						</div>
 					</div>
 				</form>
@@ -336,7 +538,10 @@
 		<a href="#myPage" title="To Top">
 			<span class="glyphicon glyphicon-chevron-up"></span>
 		</a>
-		<p>Designed and Developed by <a href="https://www.linkedin.com/in/saatvik-tikoo/" target="_blank">Saatvik Tikoo</a></p>
+		<div class="footer-credits">
+			Designed and Developed by
+			<a href="https://www.linkedin.com/in/saatvik-tikoo/" target="_blank" style="color: rgb(22, 255, 1)">Saatvik Tikoo</a>
+		</div>
 		<div>
 			<img src="images/bootstrap.png" alt="Bootstrap" title="Bootstrap">
 		</div>
@@ -370,7 +575,30 @@
 					}
 				});
 			});
-		})
+		});
+		(function ($) {
+			$(document).ready(function () {
+				// fade in .navbar
+				$(function () {
+					$(window).scroll(function () {
+						// set distance user needs to scroll before we start fadeIn
+						if ($(this).scrollTop() > 100) {
+							$('.navbar').fadeIn();
+						} else {
+							$('.navbar').fadeOut();
+						}
+					});
+				});
+				//hide scrollbar
+				$(function () {
+					$("body").css("overflow", "hidden");
+					$(window).mousemove(function () {
+						// set distance user needs to scroll before we start fadeIn
+						$("body").css("overflow", "");
+					});
+				});
+			});
+		}(jQuery));
 	</script>
 
 </body>
