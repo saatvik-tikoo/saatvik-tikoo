@@ -438,6 +438,9 @@ footer a,  footer a:hover,  footer a:active,  footer a:focus,  footer a:visited 
     }
 }
 @media screen and (max-width: 768px) {
+    html,body {
+        overflow-x: hidden;
+    }
     .col-sm-4 {
         text-align: center;
         margin: 25px 0;
