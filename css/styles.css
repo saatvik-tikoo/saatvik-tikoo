@@ -236,32 +236,8 @@ footer .glyphicon {
     text-align: center;
     line-height: 30px;
 }
-.cpp-bar {
-    width: 80%;
-}
-.ds-bar {
-    width: 70%;
-}
-.front-bar {
-    width: 90%;
-}
-.java-bar {
-    width: 50%;
-}
-.js-bar {
-    width: 70%;
-}
-.ml-bar {
-    width: 40%;
-}
-.php-bar {
-    width: 70%;
-}
-.py-bar {
-    width: 60%;
-}
-.sql-bar {
-    width: 80%;
+.lang-bar {
+    width: 100%;
 }
 footer img {
     width: 32px;
